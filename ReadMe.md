@@ -1,8 +1,8 @@
-#Doctor's API
+# Doctor's API
 
-##How to Setup Project
+## How to Setup Project
 
-###Proceed with the following steps to install the project:
+### Proceed with the following steps to install the project:
 
 1. Open application.properties file in src/main/resources folder, and set port number, database username, password.
 2. Create database in mysql as 'patientappointments'.
@@ -13,12 +13,12 @@
 7. Make sure all the dependencies/libraries for the above are installed.
 
 
-##How to Run
+## How to Run
 1. Click on Run.
 2. Using Postman, Send respective API request.
 
-###API Requests:-
-####Patient API -
+### API Requests:-
+#### Patient API -
 1. Adding a record: POST /patients
 Example JSON body-
 {
@@ -44,7 +44,7 @@ Example JSON body-
 4. Fetching all the patient records: GET /patients
 
 
-####Patient API -
+#### Patient API -
 1. Scheduling Appointment: POST /schedule/{email}
 Example JSON body-
 {
