@@ -4,6 +4,7 @@
 
 ### Proceed with the following steps to install the project:
 
+0. Clone Repository.
 1. Open application.properties file in src/main/resources folder, and set port number, database username, password.
 2. Create database in mysql as 'patientappointments'.
 3. Open the project with any supporting IDE. I created it using Intellij.
@@ -44,15 +45,12 @@ Example JSON body-
 4. Fetching all the patient records: GET /patients
 
 
-#### Patient API -
+#### Appointment API -
 1. Scheduling Appointment: POST /schedule/{email}
 Example JSON body-
 {
     "datetime": "2021-09-08T20:17:34.000+00:00",
-    "address": "updated adr, dehradun",
-    "name": "Kamlesh Updated",
-    "password": "8000updated",
-    "phone_number":"4232352343"
+    "comments": "Pain in Head"
 }
 
 2. Fetch all appointments ordered by date: GET /schedule
